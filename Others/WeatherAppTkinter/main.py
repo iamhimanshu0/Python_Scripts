@@ -24,11 +24,12 @@ def format_response(weather):
 	
 
 
-# d80a6b992b782c4387e08ff5a38f00f5 key
+# *********************************** key
 
 # button
 def get_weather(city):
-	weather_key = 'd80a6b992b782c4387e08ff5a38f00f5'
+# 	you need to add your own key
+	weather_key = '*********************'
 	# url = 'https://api.openweathermap.org/data/2.5/forecast'
 	url = 'https://api.openweathermap.org/data/2.5/weather'
 	params = {'APPID':weather_key,'q':city, 'units':'Imperial'}
